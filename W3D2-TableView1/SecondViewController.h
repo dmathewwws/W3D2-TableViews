@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  W3D2-TableView1
 //
 //  Created by Admin on 2016-09-20.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Teacher.h"
 
-@interface ViewController : UIViewController
+@interface SecondViewController : UIViewController
 
+@property (nonatomic) Teacher *teacher;
 
 @end
-

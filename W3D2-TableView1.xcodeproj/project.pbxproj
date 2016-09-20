@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		84FEADEB1D9197DC007879FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEADEA1D9197DC007879FD /* main.m */; };
 		84FEADEE1D9197DC007879FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEADED1D9197DC007879FD /* AppDelegate.m */; };
-		84FEADF11D9197DC007879FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEADF01D9197DC007879FD /* ViewController.m */; };
 		84FEADF41D9197DC007879FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEADF21D9197DC007879FD /* Main.storyboard */; };
 		84FEADF61D9197DC007879FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FEADF51D9197DC007879FD /* Assets.xcassets */; };
 		84FEADF91D9197DC007879FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEADF71D9197DC007879FD /* LaunchScreen.storyboard */; };
+		84FEAE021D91983D007879FD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEAE011D91983D007879FD /* TableViewController.m */; };
+		84FEAE051D919DC3007879FD /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEAE041D919DC3007879FD /* CustomTableViewCell.m */; };
+		84FEAE081D91A38B007879FD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEAE071D91A38B007879FD /* SecondViewController.m */; };
+		84FEAE0B1D91A448007879FD /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEAE0A1D91A448007879FD /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		84FEADEA1D9197DC007879FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84FEADEC1D9197DC007879FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84FEADED1D9197DC007879FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84FEADEF1D9197DC007879FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84FEADF01D9197DC007879FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84FEADF31D9197DC007879FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FEADF51D9197DC007879FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FEADF81D9197DC007879FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FEADFA1D9197DC007879FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FEAE001D91983D007879FD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		84FEAE011D91983D007879FD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		84FEAE031D919DC3007879FD /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		84FEAE041D919DC3007879FD /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		84FEAE061D91A38B007879FD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84FEAE071D91A38B007879FD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84FEAE091D91A448007879FD /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		84FEAE0A1D91A448007879FD /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +69,15 @@
 			children = (
 				84FEADEC1D9197DC007879FD /* AppDelegate.h */,
 				84FEADED1D9197DC007879FD /* AppDelegate.m */,
-				84FEADEF1D9197DC007879FD /* ViewController.h */,
-				84FEADF01D9197DC007879FD /* ViewController.m */,
 				84FEADF21D9197DC007879FD /* Main.storyboard */,
+				84FEAE061D91A38B007879FD /* SecondViewController.h */,
+				84FEAE071D91A38B007879FD /* SecondViewController.m */,
+				84FEAE031D919DC3007879FD /* CustomTableViewCell.h */,
+				84FEAE041D919DC3007879FD /* CustomTableViewCell.m */,
+				84FEAE001D91983D007879FD /* TableViewController.h */,
+				84FEAE011D91983D007879FD /* TableViewController.m */,
+				84FEAE091D91A448007879FD /* Teacher.h */,
+				84FEAE0A1D91A448007879FD /* Teacher.m */,
 				84FEADF51D9197DC007879FD /* Assets.xcassets */,
 				84FEADF71D9197DC007879FD /* LaunchScreen.storyboard */,
 				84FEADFA1D9197DC007879FD /* Info.plist */,
@@ -151,8 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FEADF11D9197DC007879FD /* ViewController.m in Sources */,
+				84FEAE0B1D91A448007879FD /* Teacher.m in Sources */,
+				84FEAE081D91A38B007879FD /* SecondViewController.m in Sources */,
 				84FEADEE1D9197DC007879FD /* AppDelegate.m in Sources */,
+				84FEAE021D91983D007879FD /* TableViewController.m in Sources */,
+				84FEAE051D919DC3007879FD /* CustomTableViewCell.m in Sources */,
 				84FEADEB1D9197DC007879FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
