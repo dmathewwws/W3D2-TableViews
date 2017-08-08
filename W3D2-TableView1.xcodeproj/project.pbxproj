@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120F6C8E1F3A193E00BDE6FD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120F6C8D1F3A193E00BDE6FD /* TableViewController.m */; };
+		120F6C911F3A1E4500BDE6FD /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 120F6C901F3A1E4500BDE6FD /* Teacher.m */; };
+		120F6C941F3A27F800BDE6FD /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 120F6C931F3A27F800BDE6FD /* MyTableViewCell.m */; };
+		120F6C971F3A2B4600BDE6FD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120F6C961F3A2B4600BDE6FD /* SecondViewController.m */; };
 		84FEADEB1D9197DC007879FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEADEA1D9197DC007879FD /* main.m */; };
 		84FEADEE1D9197DC007879FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEADED1D9197DC007879FD /* AppDelegate.m */; };
 		84FEADF41D9197DC007879FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEADF21D9197DC007879FD /* Main.storyboard */; };
@@ -15,6 +19,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120F6C8C1F3A193E00BDE6FD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		120F6C8D1F3A193E00BDE6FD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		120F6C8F1F3A1E4500BDE6FD /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		120F6C901F3A1E4500BDE6FD /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		120F6C921F3A27F800BDE6FD /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		120F6C931F3A27F800BDE6FD /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		120F6C951F3A2B4600BDE6FD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		120F6C961F3A2B4600BDE6FD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		84FEADE61D9197DC007879FD /* W3D2-TableView1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W3D2-TableView1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FEADEA1D9197DC007879FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84FEADEC1D9197DC007879FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +70,14 @@
 				84FEADEC1D9197DC007879FD /* AppDelegate.h */,
 				84FEADED1D9197DC007879FD /* AppDelegate.m */,
 				84FEADF21D9197DC007879FD /* Main.storyboard */,
+				120F6C8C1F3A193E00BDE6FD /* TableViewController.h */,
+				120F6C8D1F3A193E00BDE6FD /* TableViewController.m */,
+				120F6C951F3A2B4600BDE6FD /* SecondViewController.h */,
+				120F6C961F3A2B4600BDE6FD /* SecondViewController.m */,
+				120F6C921F3A27F800BDE6FD /* MyTableViewCell.h */,
+				120F6C931F3A27F800BDE6FD /* MyTableViewCell.m */,
+				120F6C8F1F3A1E4500BDE6FD /* Teacher.h */,
+				120F6C901F3A1E4500BDE6FD /* Teacher.m */,
 				84FEADF51D9197DC007879FD /* Assets.xcassets */,
 				84FEADF71D9197DC007879FD /* LaunchScreen.storyboard */,
 				84FEADFA1D9197DC007879FD /* Info.plist */,
@@ -146,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120F6C971F3A2B4600BDE6FD /* SecondViewController.m in Sources */,
+				120F6C911F3A1E4500BDE6FD /* Teacher.m in Sources */,
 				84FEADEE1D9197DC007879FD /* AppDelegate.m in Sources */,
+				120F6C8E1F3A193E00BDE6FD /* TableViewController.m in Sources */,
 				84FEADEB1D9197DC007879FD /* main.m in Sources */,
+				120F6C941F3A27F800BDE6FD /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
